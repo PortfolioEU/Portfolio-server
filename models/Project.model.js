@@ -9,7 +9,8 @@ const projectSchema = new Schema({
 
     projectImage: {
         type: String,
-        required: true
+         required: true,
+         default: "https://i.imgur.com/r8bo8u7.png"
     },
 
     projectDescription: {
